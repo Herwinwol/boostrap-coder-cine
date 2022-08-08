@@ -17,36 +17,25 @@
   <body class="cuerpo">
     <!-- inicia header -->
     <header class="container-fluid header bg-dark row p-2 m-0">
-      <nav class="navbar d-flex justify-content-center navbar-expand-lg bg-dark">
-        <div class="container-fluid d-flex justify-content-evenly">
-          <a class="navbar-brand" href="#"
-            ><h2 class="fs-3 text-warning">Cámara</h2>
-        <h2 class="fs-3 text-light">en mano</h2></a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <nav class="navbar container-fluid col-12 d-flex justify-content-between navbar-expand-lg bg-dark">
+        <div class="col-4 p-2 d-flex">
+          <a class="navbar-brand" href="#">
+            <h2 class="title-logo fs-3 text-warning">Cámara</h2>
+            <h2 class="title-logo fs-3 text-light">en mano</h2></a>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse col-lg-8 navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav d-flex justify-content-center me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link nav-link-home" aria-current="page" href="#"
-                  >Inicio -</a
-                >
+                <a class="nav-link nav-link-home" aria-current="page" href="#">Inicio -</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-warning" href="#banner">Quienes somos -</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-warning" href="#peliculas" aria-expanded="false">
-                  Propuestas -
-                </a>
+                <a class="nav-link text-warning" href="#peliculas" aria-expanded="false">Propuestas -</a>
               </li>
               <li class="nav-item">
                 <a href="pages/contacto.html" class="nav-link text-warning">Contacto -</a>
@@ -128,19 +117,22 @@
         <!-- fin tarjeta -->
       </section>
 
+      <!-- inicia footer -->
       <footer class="container-fluid d-flex justify-content-center bg-dark p-2">
-        <div class="">
-            <h2 class="text-warning">Camara en mano</h2>
+        <div class="col-lg-6">
+            <h2 class="title-footer text-warning">Camara</h2>
+            <h2 class="title-footer text-light">en mano</h2>
             <p class="text-light">Una nueva interpretacion acerca de viejas interpretaciones.</p>
         </div>
-        <div class="">
-            <ul class="d-flex">
-                <li class="item-footer"><a class="fs-5 link-footer text-warning m-3" href="instagram.com">instagram</a></li>
-                <li class="item-footer"><a class="fs-5 link-footer text-warning m-3" href="twitter.com">twitter</a></li>
-                <li class="item-footer"><a class="fs-5 link-footer text-warning m-3" href="pages/contacto.html">contacto</a></li>
+        <div class="col-lg-6">
+            <ul class="d-flex justify-content-star">
+                <li class="item-footer align-self-center"><a class="link-footer text-warning m-3" href="instagram.com">- instagram -</a></li>
+                <li class="item-foote align-self-centerr"><a class="link-footer text-warning m-3" href="twitter.com">- twitter -</a></li>
+                <li class="item-footer align-self-center"><a class="link-footer text-warning m-3" href="pages/contacto.html">- contacto -</a></li>
             </ul>
         </div>
       </footer>
+      <!-- fin footer -->
 
 
 
