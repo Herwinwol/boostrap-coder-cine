@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.cuerpo{
+    background-color: black;
+}
+.img-logo{
+    border-radius: .2rem;
+}
+.nav-link{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 2rem;
+    letter-spacing: .2rem;
+}
+.nav-link:hover{
+    color: antiquewhite !important;
+    transition: 1s;
+}
+.nav-link-home{
+    color: rgb(211, 96, 13);
+}
+.img-banner{
+    width: 100%;
+}
+.jumbotron{
+    background-image: url(../assets/images/cinema-banner.jpg);
+    background-size: contain;
+}
+.item-footer{
+    list-style: none;
+}
+.link-footer{
+    text-decoration: none;
+}
+.link-footer:hover{
+    color: antiquewhite !important;
+    transition: 1s;
+}
